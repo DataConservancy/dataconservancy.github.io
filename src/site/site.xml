@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  An annoying "feature" of the way the DefaultSiteRenderer works:
+  the value of the name attribute is prepended to any title.  So
+  set it to the zero-length string to only get the title from
+  the site content itself.
+-->
+<project name="">
+  <skin>
+    <groupId>org.dataconservancy.skins</groupId>
+    <artifactId>spec</artifactId>
+    <version>1</version>
+  </skin>
+  <custom>
+    <fluidoSkin>
+      <topBarEnabled>false</topBarEnabled>
+      <sideBarEnabled>false</sideBarEnabled>
+      
+      <topBarIcon>
+        <name>Data Conservancy GitHub Home</name>
+        <alt>Data Conservancy GitHub Home</alt>
+        <src>/images/dc-logo.gif</src>
+        <href>/index.html</href>
+      </topBarIcon>      
+    </fluidoSkin>
+  </custom>
+  <body>
+    <head>      
+      <link rel="icon" type="image/png" href="@relativePath@/images/dc-favico.png"/>
+      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Data Conservancy GitHub Home" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:url" content="/index.html" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:image" content="@relativePath@/images/dc-logo.gif" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:image:type" content="image/gif" />
+      <meta prefix="og: http://ogp.me/ns#" property="og:description" content="The Data Conservancy GitHub Website" />
+    </head>
+  </body>
+</project>
