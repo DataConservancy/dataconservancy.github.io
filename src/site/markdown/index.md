@@ -25,4 +25,4 @@ The [Data Conservancy Packaging Tool][packaging-tool] is a JavaFX GUI for creati
 [dc]: http://dataconservancy.org "Data Conservancy Home Page"
 [packaging-spec-1.0]: http://dataconservancy.github.io/dc-packaging-spec/dc-packaging-spec-1.0.html "Data Conservancy Packaging Specification 1.0"
 [bagit-profile-1.0]: http://dataconservancy.github.io/dc-packaging-spec/dc-bagit-profile-1.0.html "Data Conservancy BagIt Profile 1.0"
-[packaging-tool]: https://github.com/DataConservancy/dcs-packaging-tool "Data Conservancy Packaging Tool"
+[packaging-tool]: http://github.com/DataConservancy/dcs-packaging-tool "Data Conservancy Packaging Tool"
