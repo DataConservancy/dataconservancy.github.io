@@ -37,11 +37,11 @@ To make edits to site content, clone this repository.
 
 Check out the `maven-site` branch.  
 
-    Unlike typical GitHub Pages sites, the HTML content of 
-    this site is read from the `master` branch (not 
-    `gh-pages`).  The Markdown version of the site is
-    kept on the `maven-site` branch, and the GitHub
-    Maven plugin commits it to `master`.
+> Unlike typical GitHub Pages sites, the HTML content of 
+> this site is read from the `master` branch (not 
+> `gh-pages`).  The Markdown version of the site is
+> kept on the `maven-site` branch, and the GitHub
+> Maven plugin commits it to `master`.
 
 Edit the files under `src/site/markdown`.  To preview your changes, run:
 
