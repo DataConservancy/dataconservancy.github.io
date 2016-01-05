@@ -13,9 +13,4 @@
     <changefreq>monthly</changefreq>
   </url>
 
-  <url>
-    <loc>http://github.com/DataConservancy/dcs-packaging-tool</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-
 </urlset>
