@@ -22,7 +22,12 @@ package and describe digital content.
 
 The [Data Conservancy Packaging Tool][packaging-tool] is a JavaFX GUI for creating packages that conform to the Data Conservancy Packaging Specification.
 
+## <a name="package-ingest"/> Package Ingest
+
+The [Data Conservancy Package Ingest Service][package-ingest] accepts packages that conform to the [Data Conservancy Packaging Specification][packaging-spec-1.0], and deposits them in a Fedora repository.
+
 [dc]: http://dataconservancy.org "Data Conservancy Home Page"
 [packaging-spec-1.0]: http://dataconservancy.github.io/dc-packaging-spec/dc-packaging-spec-1.0.html "Data Conservancy Packaging Specification 1.0"
 [bagit-profile-1.0]: http://dataconservancy.github.io/dc-packaging-spec/dc-bagit-profile-1.0.html "Data Conservancy BagIt Profile 1.0"
 [packaging-tool]: http://github.com/DataConservancy/dcs-packaging-tool "Data Conservancy Packaging Tool"
+[package-ingest]: http://github.com/DataConservancy/dcs-package-ingest/releases "Data Conservancy Package Ingest"
